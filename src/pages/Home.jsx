@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <div className="bg-[#000] z-50 justify-center items-center flex flex-col">
-        <Navbar />
         <Hero />
         <Courses />
         <Project />
