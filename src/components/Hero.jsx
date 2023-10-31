@@ -17,7 +17,7 @@ export const Hero = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <h2 className="font-bold text-[20px] md:text-[32px] lg:text-[40px]animate-charcter ">12 LPA</h2>
+          <h2 className="font-bold text-[20px] md:text-[32px] lg:text-[40px] animate-charcter ">12 LPA</h2>
           <span className="font-medium text-[8px] md:text-[16px] animate-charcter">Highest Package</span>
         </div>
 
