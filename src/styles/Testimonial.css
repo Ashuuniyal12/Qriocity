@@ -30,13 +30,15 @@
   width: 80%;
   max-width: 1000px;
   position: relative;
-  padding: 4%;
+  padding: 2%;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
   gap: 10%;
+  padding: 4%;
+
 }
 
 /* Next & previous buttons */
@@ -116,9 +118,9 @@
 
 
 .slide-img-container{
-  height: 20rem;
-  width: 50rem;
-  /* padding: 2%; */
+  
+  
+  width: 100rem;
 }
 .slide-img{
   width: 100%;
@@ -139,8 +141,52 @@
 }
 .content{
   position: relative;
+  padding-bottom: 8%;
 }
 .dot-div{
   position: absolute;
   bottom: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .quote{
+      width: 6rem;
+      top: -6%;
+    }
+  .testimonial-header{
+    font-size: 40px;
+    text-align: center;
+  }
+  .mySlides{
+    display: block;
+  }
+  .testimonial-container{
+    padding: 2%;
+  }
+  .slide-img-container{
+    width: 20rem;
+  }
+
+
+
+  .next {
+    right: -10%;
+    
+  }
+  .prev{
+    left:-10%
+  }
+  .content p{
+    margin: 6% 0;
+  }
+
+}
+@media screen and (max-width: 600px) {
+
+  .slide-img-container{
+    width: 16.5rem;
+  }  
+
 }

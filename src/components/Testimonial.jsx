@@ -41,7 +41,12 @@ export const Testimonial = () => {
     for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex - 1].style.display = "flex";
+    const screenWidth = window.screen.width;
+    if(screenWidth>600)
+      slides[slideIndex - 1].style.display = "flex";
+    else{
+      slides[slideIndex - 1].style.display = "block";
+    }
     dots[slideIndex - 1].className += " active";
   };
 
