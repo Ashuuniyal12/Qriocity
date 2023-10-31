@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.svg';
-import { HiMenu, HiX } from 'react-icons/hi'; // Import the close (X) icon
+import { HiMenu, HiX } from 'react-icons/hi'; 
 
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -10,7 +10,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className='flex flex-row justify-between max-w-[1440px] h-[66px] bg-[#616161] items-center px-[64px]'>
+    <div className='flex flex-row justify-between w-[1440px] h-[66px]  items-center px-[64px]'>
       <img src={logo} alt="company logo" />
       <div className='hidden md:flex flex-row gap-6 font-RedHat text-white'>
         <a href="">Home</a>
