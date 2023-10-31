@@ -5,6 +5,7 @@ import "../styles/Courses.css";
 import Course1 from "../assets/courses1.jpeg";
 import Course2 from "../assets/courses2.jpeg";
 import Course3 from "../assets/courses3.jpeg";
+import { Link } from "react-router-dom";
 
 export const Courses = () => {
   const numberProps = useSpring({
@@ -122,9 +123,11 @@ export const Courses = () => {
           </div>
         </div>
       </div>
+      <Link to="/courses">
       <button className="button w-[300px]">
         <span>Explore All Courses </span>
       </button>
+      </Link>
     </div>
   );
 };
