@@ -3,7 +3,7 @@
 } */
 
 .footer{
-    width: 100%;
+    max-width: 1440px;
     display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
     gap: 5rem;
@@ -48,7 +48,7 @@
     /* overflow: hidden; */
     /* text-decoration: none; */
 }
-a {
+.footer-item-container a{
     position: relative;
     text-decoration: none;
     color: white; 
@@ -56,7 +56,7 @@ a {
     width: fit-content;
   }
   
-  a::before {
+  .footer-item-container a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -69,7 +69,7 @@ a {
     transition: transform 0.3s ease-out;
   }
   
-  a:hover::before {
+  .footer-item-container a:hover::before {
     transform-origin: bottom left;
     transform: scaleX(1);
   }
