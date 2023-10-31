@@ -84,11 +84,11 @@ export const Courses = () => {
       <div className="bg-[#FF7A00] absolute top-[34rem] left-[-15rem] h-[35.25rem]   w-[20rem] rounded-full blur-[10rem]"></div>
       <div className="bg-[#3cffff] absolute top-[20rem] right-[-20rem]  h-[15.25rem]   w-[30.25rem] rounded-full blur-[10rem]"></div>
 
-      <h1 className="font-figtree text-[60px] z-10 mt-48 text-white font-semibold">
+      <h1 className="font-figtree  text-[32px]  z-10 md:text-[60px] mt-48 text-white font-semibold">
         Our Self Paced Courses
       </h1>
 
-      <div className="flex flex-row gap-8 my-16 font-figtree">
+      <div className="flex lg:flex-row  flex-col gap-8 my-16 font-figtree">
         <div className="wrapper gap-8 ">
           <div className="card">
             <img src={Course1} />

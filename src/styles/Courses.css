@@ -1,12 +1,18 @@
 .wrapper {
   display: flex;
+  flex-direction: column;
   width: 90%;
   justify-content: space-around;
 }
+@media (min-width: 1024px) {
+  .wrapper {
+    flex-direction: row;
+  }
+}
 
 .card {
-  width: 368px;
-  height: 386px;
+  width: 258px;
+  height: 300px;
   border-radius: 15px;
   padding: 1.5rem;
   background: white;
@@ -15,6 +21,12 @@
   align-items: flex-end;
   transition: 0.4s ease-out;
   box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .card {
+    width: 368px;
+    height: 386px;
+  }
 }
 .card:hover {
   transform: translateY(20px);

@@ -13,7 +13,7 @@ import '../styles/Footer.css'
 export const Footer = () => {
   return (
   <>
-    <footer className='footer w-[1440px]'>
+    <footer className='footer max-w-[1440px]'>
       
       <div className='footer-section'>
         <img src={logo} alt="" className='footer-logo'/>
