@@ -8,6 +8,8 @@ import linkedin from '../assets/Group 1000004400.svg'
 import quora from '../assets/Vector.svg'
 import insta from '../assets/Group 1000004397.svg'
 
+import pin from '../assets/geo-alt-fill.svg'
+import phone from '../assets/telephone-fill.svg'
 import '../styles/Footer.css'
 
 export const Footer = () => {
@@ -18,6 +20,16 @@ export const Footer = () => {
       <div className='footer-section'>
         <img src={logo} alt="" className='footer-logo'/>
         <div className='footer-description'>Qriocity as a training institution for IT Graduates assisting them to scale up the IT industry</div>
+
+        <div className='footer-item address'>
+          <img src={phone} alt="" style={{ fill: 'red' }} />
+          <div>No:29, Vallalar Nagar, Salamedu, Villupuram, Pincode-605401</div>
+          
+        </div>
+        <div className='footer-item address'>
+          <img src={pin} alt="" className='icon'/>
+          <div>9955878589</div>
+        </div>
       </div>
 
       <div className='footer-section'>

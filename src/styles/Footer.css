@@ -45,12 +45,15 @@ body{
 .footer-item{
     color: #FFF;
     /* font-weight: 500; */
-
+    /* fill: white; */
     display: flex;
     align-items: center;
     gap: 20px;
     /* overflow: hidden; */
     /* text-decoration: none; */
+}
+.footer-item img{
+    fill: white;
 }
 .footer-item-container a{
     position: relative;
@@ -59,7 +62,9 @@ body{
     /* display: inline-block; */
     width: fit-content;
   }
-  
+  .icon{
+    fill: white;
+  }
   .footer-item-container a::before {
     content: '';
     position: absolute;
@@ -85,6 +90,10 @@ body{
     padding: 2%;
     color: grey;
     
+ }
+
+ .address{
+    margin: 5% 0;
  }
   
 /* Add a media query for mobile screens */
