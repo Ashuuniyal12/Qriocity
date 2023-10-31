@@ -66,8 +66,12 @@
 
 
     padding: 2%;
+    padding-bottom: 4%;
+    transition: all 0.2s ease-in-out;
 }
-
+.form-component input:hover{
+    scale: 1.05;
+}
 .hid{
     opacity: 0;
 }
@@ -98,6 +102,10 @@
 .social-img{
     height: 2rem;
     width: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+.social-img:hover{
+    transform: translateY(-30%);
 }
 
 #hand-img{

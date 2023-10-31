@@ -1,12 +1,16 @@
 /* a{
     text-decoration: none;
 } */
-
+body{
+    overflow-x:hidden ;
+}
 .footer{
-    max-width:1440px;
+    /* max-width:1440px; */
+    width: 100%;
+    /* max-width: 1440px; */
     display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
-    gap: 4rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    gap: 2rem;
     background-color: black;
     color: white;
 
@@ -24,7 +28,7 @@
     /* font-weight: 500; */
 }
 .footer-section{
-    width: 100%;
+    /* width: 100%; */
     /* background-color: grey; */
 }
 .section-heading{
@@ -52,7 +56,7 @@
     position: relative;
     text-decoration: none;
     color: white; 
-    display: inline-block;
+    /* display: inline-block; */
     width: fit-content;
   }
   
