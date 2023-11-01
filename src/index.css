@@ -29,6 +29,30 @@
   }
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
+}
+
+.header-course {
+  background-image: url("../src/assets/course-bg.png");
+}
+
+.about-img {
+  background-image: url("../src/assets/about.jpeg");
+}
+
+.hover-div {
+  transform: perspective(800px) rotateY(-25deg) scale(0.9) rotateX(0deg);
+  filter: blur(2px);
+  opacity: 0.5;
+  transition: 0.6s ease all;
+  border-radius: 5rem;
+  border: #F15A29;
+
+}
+.hover-div:hover {
+  transform: perspective(800px) rotateY(0deg) translateY(-50px) rotateX(0deg)
+    scale(1);
+  filter: blur(0);
+  opacity: 1;
 }

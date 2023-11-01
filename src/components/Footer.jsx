@@ -22,12 +22,12 @@ export const Footer = () => {
         <div className='footer-description'>Qriocity as a training institution for IT Graduates assisting them to scale up the IT industry</div>
 
         <div className='footer-item address'>
-          <img src={phone} alt="" style={{ fill: 'red' }} />
+          <img src={pin} alt="" style={{ fill: 'red' }} />
           <div>No:29, Vallalar Nagar, Salamedu, Villupuram, Pincode-605401</div>
           
         </div>
         <div className='footer-item address'>
-          <img src={pin} alt="" className='icon'/>
+          <img src={phone} alt="" className='icon'/>
           <div>9955878589</div>
         </div>
       </div>

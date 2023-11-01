@@ -14,6 +14,7 @@ export const Navbar = () => {
   const isRouteActive = (path) => {
     // Check if the current route matches the given path
     return location.pathname === path ? "font-semibold text-orange-400" : "";
+   
   };
 
   return (
@@ -53,19 +54,19 @@ export const Navbar = () => {
       </div>
       {showMenu && (
         <div className="md:hidden fixed top-0 left-0 w-full h-full z-[999] backdrop-blur-[0.8rem] flex flex-col gap-10 py-10 items-center text-[#F4511E] font-semibold text-[24px] font-Raleway">
-          <Link to="/" className={isRouteActive("/")}>
+          <Link to="/" className={isRouteActive("/")} onClick={()=>{toggleMenu()}}>
             Home
           </Link>
-          <Link to="/courses" className={isRouteActive("/courses")}>
+          <Link to="/courses" className={isRouteActive("/courses")} onClick={()=>{toggleMenu()}}>
             Our Courses
           </Link>
-          <Link to="/about" className={isRouteActive("/about")}>
+          <Link to="/about" className={isRouteActive("/about")} onClick={()=>{toggleMenu()}}>
             About Us
           </Link>
-          <Link to="/projects" className={isRouteActive("/projects")}>
+          <Link to="/projects" className={isRouteActive("/projects")} onClick={()=>{toggleMenu()}}>
             Projects
           </Link>
-          <Link to="/contact" className={isRouteActive("/contact")}>
+          <Link to="/contact" className={isRouteActive("/contact")} onClick={()=>{toggleMenu()}}>
             Contact Us
           </Link>
           <HiX

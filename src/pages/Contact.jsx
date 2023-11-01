@@ -65,9 +65,6 @@ const Contact = () => {
               <img src={insta} alt="" className='social-img'/>
             </a>
           </div>
-
-          
-          
         </div>
 
         <img src={hand} alt="" id='hand-img'/>
