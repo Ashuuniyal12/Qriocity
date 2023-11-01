@@ -13,10 +13,8 @@ body{
     gap: 2rem;
     background-color: black;
     color: white;
-
     padding: 4%;
     transition: all 0.3s ease-out;
-
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
 }
@@ -97,9 +95,9 @@ body{
  }
   
 /* Add a media query for mobile screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .footer {
-      grid-template-columns: 1fr; /* Switch to a single column layout on small screens */
+      grid-template-columns: 1fr 1fr; /* Switch to a single column layout on small screens */
       padding: 8%;
     }
   
@@ -117,3 +115,4 @@ body{
         margin-bottom: 8%;
     }
 }
+

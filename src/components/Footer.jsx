@@ -18,15 +18,15 @@ export const Footer = () => {
     <footer className='footer'>
       
       <div className='footer-section'>
-        <img src={logo} alt="" className='footer-logo'/>
-        <div className='footer-description'>Qriocity as a training institution for IT Graduates assisting them to scale up the IT industry</div>
+        <img src={logo} alt="" className='footer-logo pl-8'/>
+        <div className='footer-description md:w-[250px] pl-8'>Qriocity as a training institution for IT Graduates assisting them to scale up the IT industry</div>
 
-        <div className='footer-item address'>
+        <div className='footer-item address pl-8 ' >
           <img src={pin} alt="" style={{ fill: 'red' }} />
-          <div>No:29, Vallalar Nagar, Salamedu, Villupuram, Pincode-605401</div>
+          <div className='md:w-[250px] '   >No:29, Vallalar Nagar, Salamedu, Villupuram, Pincode-605401</div>
           
         </div>
-        <div className='footer-item address'>
+        <div className='footer-item address pl-8 '>
           <img src={phone} alt="" className='icon'/>
           <div>9955878589</div>
         </div>
@@ -44,9 +44,9 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div className='footer-section'>
+      <div className='footer-section pl-8'>
         <div className='section-heading'>Resources</div>
-        <div className='footer-item-container'>
+        <div className='footer-item-container '>
           <a className='footer-item' href="/">Blog</a>
           <a className='footer-item' href="/">About Us</a>
           <a className='footer-item' href="/">Contact Us</a>
